@@ -1,6 +1,37 @@
 {
+  "name": "tweetnacl-sign-utils",
+  "version": "1.0.0",
+  "description": "package to sign and verify signatures in a simple way",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
   "dependencies": {
     "tweetnacl": "^1.0.3",
     "tweetnacl-util": "^0.15.1"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node ./examples/sign.js && node ./examples/verifySign.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidMoura07/tweetNaCl.git"
+  },
+  "keywords": [
+    "tweetnacl",
+    "nacl",
+    "sign",
+    "signature",
+    "verify",
+    "check",
+    "ed25519"
+  ],
+  "author": "David Marques",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidMoura07/tweetNaCl/issues"
+  },
+  "homepage": "https://github.com/DavidMoura07/tweetNaCl#readme"
 }
