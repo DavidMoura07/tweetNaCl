@@ -69,8 +69,6 @@ const _decodeSignature = function(signature) {
     }
 }
 
-module.exports = {
-    generateKeyPair,
-    sign,
-    verify
-}
+exports.generateKeyPair = generateKeyPair;
+exports.sign = sign;
+exports.verify = verify;

@@ -4,8 +4,7 @@
   "description": "package to sign and verify signatures in a simple way",
   "main": "index.js",
   "directories": {
-    "example": "examples",
-    "lib": "lib"
+    "example": "examples"
   },
   "dependencies": {
     "tweetnacl": "^1.0.3",
