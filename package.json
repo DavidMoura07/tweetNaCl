@@ -2,7 +2,7 @@
   "name": "tweetnacl-sign-utils",
   "version": "1.0.0",
   "description": "package to sign and verify signatures in a simple way",
-  "main": "./lib/TweetNaClUtil.js",
+  "main": "index.js",
   "directories": {
     "example": "examples",
     "lib": "lib"

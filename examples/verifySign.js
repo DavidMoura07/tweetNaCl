@@ -1,4 +1,4 @@
-const naclUtil = require("../lib/TweetNaClUtil")
+const naclUtil = require("../index")
 
 const message = "TESTE"
 const sign = "w0NbYvoJK33pc+dAVQWgqnEPl9Q1MUvDP0MlG2oR9nqwsSmNsCN6HETRpSNWp0hco2aozX2MNSoaZKdFcvb0Bw=="

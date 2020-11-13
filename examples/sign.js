@@ -1,4 +1,4 @@
-const naclUtil = require("../lib/TweetNaClUtil")
+const naclUtil = require("../index")
 
 const keys = naclUtil.generateKeyPair();
 const message = "TESTE"
