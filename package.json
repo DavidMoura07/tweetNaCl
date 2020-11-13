@@ -26,7 +26,11 @@
     "signature",
     "verify",
     "check",
-    "ed25519"
+    "ed25519",
+    "crypto",
+    "random",
+    "entropy",
+    "encryption"
   ],
   "author": "David Marques",
   "license": "ISC",
